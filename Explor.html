@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Books | Bookstore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-400 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">UBN Bookstore</a>
+            <a href="home.html" class="nav-link text-white">Home</a>
+                <a href="About us .html" class="nav-link text-white">About Us</a>
+                <a href="page video.html" class="nav-link text-white">Video</a>
+                <a href="Register.html" class="nav-link bg-blue-600 text-white hover:bg-blue-700">Register</a>
+           
+            <div>
+                <input type="text" placeholder="Search..." class="border rounded px-4 py-2">
+                <button class="bg-blue-600 text-white rounded px-4 py-2 ml-2">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-64 text-white" style="background-image: url('https://source.unsplash.com/1600x900/?books,library');">
+        <div class="bg-black bg-opacity-50 h-full flex items-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl font-bold">Explore Our Collection</h1>
+                <p class="mt-2 text-lg">Find your next great read today</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Books -->
+    <section class="container mx-auto px-4 py-8">
+        <h2 class="text-2xl font-bold mb-4">Featured Books</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Book 1 -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="image_book/Screenshot 2024-08-09 112756.png" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                <h3 class="mt-4 text-lg font-bold">វីរនារីវុនី</h3>
+                <p class="text-gray-600">by Author 1</p>
+                <p class="mt-2 text-blue-600 font-bold">$19.99</p>
+                <button class="mt-4 bg-blue-600 text-white rounded px-4 py-2">Buy Now</button>
+            </div>
+
+            <!-- Book 2 -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="image_book/Screenshot 2024-08-09 112748.png" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                <h3 class="mt-4 text-lg font-bold">មេក្រូយក្ស</h3>
+                <p class="text-gray-600">by Author 2</p>
+                <p class="mt-2 text-blue-600 font-bold">$14.99</p>
+                <button class="mt-4 bg-blue-600 text-white rounded px-4 py-2">Buy Now</button>
+            </div>
+
+            <!-- Book 3 -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="image_book/Screenshot 2024-08-09 112736.png" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                <h3 class="mt-4 text-lg font-bold">សួនបណ្តែតទឺក</h3>
+                <p class="text-gray-600">by Author 3</p>
+                <p class="mt-2 text-blue-600 font-bold">$24.99</p>
+                <button class="mt-4 bg-blue-600 text-white rounded px-4 py-2">Buy Now</button>
+            </div>
+
+            <!-- Book 4 -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="image_book/Screenshot 2024-08-09 112723.png" alt="Book Cover" class="w-full h-64 object-cover rounded">
+                <h3 class="mt-4 text-lg font-bold">ស្វែងរកពន្លឺ</h3>
+                <p class="text-gray-600">by Author 4</p>
+                <p class="mt-2 text-blue-600 font-bold">$29.99</p>
+                <button class="mt-4 bg-blue-600 text-white rounded px-4 py-2">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="bg-white py-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-4">Categories</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                <div class="bg-blue-600 text-white rounded-lg p-4 text-center">
+                    <h3 class="text-lg font-bold">រឿងនិទាន</h3>
+                </div>
+                <div class="bg-blue-600 text-white rounded-lg p-4 text-center">
+                    <h3 class="text-lg font-bold">រឿងប្រលោមលោ</h3>
+                </div>
+                <div class="bg-blue-600 text-white rounded-lg p-4 text-center">
+                    <h3 class="text-lg font-bold">សៀវភៅវអប់រំ</h3>
+                </div>
+                <div class="bg-blue-600 text-white rounded-lg p-4 text-center">
+                    <h3 class="text-lg font-bold">សៀវភៅវ​ចុងភៅ</h3>
+                </div>
+                <div class="bg-blue-600 text-white rounded-lg p-4 text-center">
+                    <h3 class="text-lg font-bold">សៀវភៅវអប់រំកាយ</h3>
+                </div>
+                <div class="bg-blue-600 text-white rounded-lg p-4 text-center">
+                    <h3 class="text-lg font-bold">សៀវភៅវធម៏</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 py-10">
+        <div class="container mx-auto px-6 text-center text-white">
+            <p>165 Road Nnhom Nnenh</p>
+            <p>ubn@www.com.kh</p>
+        </div>
+    </footer>
+</body>
+</html>
